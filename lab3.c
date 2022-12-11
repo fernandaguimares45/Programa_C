@@ -30,25 +30,26 @@ int main()
                 VL=Q1*presA;
                 stqA= STOC_A-Q1;
             }
-            else prinf("Sem item suficiente \n");
+            else printf("Sem item suficiente \n");
         case 'B':
             if(Q1<=stqB){
                 VL=Q1*presB;
                 stqA= STOC_B-Q1;
             }
-            else prinf("Sem item suficiente \n");
+            else printf("Sem item suficiente \n");
         case 'C':
             if(Q1<=stqC){
                 VL=Q1*presC;
                 stqA= STOC_C-Q1;
             }
-            else prinf("Sem item suficiente \n");
+            else printf("Sem item suficiente \n");
         case 'D':
             if(Q1<=stqD){
                 VL=Q1*presD;
                 stqA= STOC_D-Q1;
             }
-            else prinf("Sem item suficiente \n");
+            else printf("Sem item suficiente \n");
         default:
     }
 }
+
